@@ -112,10 +112,10 @@ Configurado via docker-compose.yml
 Dados de acesso padrão definidos no arquivo
 
 Exemplo de acesso no application.properties:
-
+```
 spring.datasource.url=jdbc:postgresql://localhost:5432/sportsdb
 spring.datasource.username=postgres
 spring.datasource.password=postgres
 spring.jpa.hibernate.ddl-auto=update
-
+```
 
