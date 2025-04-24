@@ -80,8 +80,8 @@ GET /api/esportes/{id}
 
 🔹 Atualizar um esporte
 PUT /api/esportes/{id}
-```
 Exemplo de JSON:
+```
 {
   "nome": "Futebol Atualizado",
   "descricao": "Esporte coletivo com bola",
