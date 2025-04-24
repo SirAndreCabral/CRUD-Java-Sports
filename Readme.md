@@ -60,6 +60,7 @@ POST /api/esportes
 Content-Type: application/json
 
 Exemplo de JSON:
+```
 {
   "nome": "futebol",
   "descricao": "esporte futebol",
@@ -69,6 +70,7 @@ Exemplo de JSON:
   "paisOrigem": "Inglaterra",
   "anoCriacao": 1863
 }
+```
 
 🔹 Listar todos os esportes
 GET /api/esportes
@@ -78,7 +80,7 @@ GET /api/esportes/{id}
 
 🔹 Atualizar um esporte
 PUT /api/esportes/{id}
-
+```
 Exemplo de JSON:
 {
   "nome": "Futebol Atualizado",
@@ -89,7 +91,7 @@ Exemplo de JSON:
   "paisOrigem": "Brasil",
   "anoCriacao": 1865
 }
-
+```
 🔹 Deletar um esporte
 DELETE /api/esportes/{id}
 
